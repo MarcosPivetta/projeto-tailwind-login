@@ -1,0 +1,71 @@
+# .gitignore - arquivo gerado para projeto web (Tailwind / Node)
+# Comentários em Português
+
+# Dependências
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Build / artefatos gerados
+/dist
+/build
+/out
+/public/build
+/.parcel-cache
+/.cache
+.cache/
+.next/
+.nuxt/
+.vercel/
+.vercel_build_output/
+
+# CSS/artefatos gerados pelo Tailwind ou ferramentas de build
+/style/output.css
+/assets/**/*.css
+*.css.map
+*.min.css
+
+# Ferramentas de teste / cobertura
+coverage/
+nyc_output/
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs / editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Editor swap / backups
+*~
+*.swp
+*.tmp
+*.bak
+*.orig
+
+# Outros diretórios de dependências
+bower_components/
+jspm_packages/
+
+# Docker / containers
+docker-compose.override.yml
+
+# Firebase / servidor local
+.firebase/
+
+# Histórico do Node REPL
+.node_repl_history
